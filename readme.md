@@ -14,9 +14,9 @@ A sophisticated man-in-the-middle proxy server that filters connections to RyDri
 ## Architecture
 
 ```
-Client → Proxy (Port 8081) → RyDrive (Port 8080)
+Client → Proxy (Port 8000) → RyDrive (Port 8080)
                 ↓
-         Web UI (Port 8082)
+         Web UI (Port 8123)
 ```
 
 The proxy sits between clients and RyDrive, intercepting all connections and filtering based on your blocklist. Blocked IPs receive a 403 Forbidden response, while allowed IPs are transparently forwarded to RyDrive.
