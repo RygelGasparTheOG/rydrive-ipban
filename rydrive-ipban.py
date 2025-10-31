@@ -27,12 +27,12 @@ import time
 # CONFIGURATION
 # ============================================================================
 PROXY_HOST = '0.0.0.0'      # Listen on all interfaces
-PROXY_PORT = 8081            # Public-facing port (clients connect here)
+PROXY_PORT = 8000            # Public-facing port (clients connect here)
 RYDRIVE_HOST = '127.0.0.1'  # RyDrive server location
 RYDRIVE_PORT = 8080          # RyDrive actual port (as set in rydrive.py)
 
 WEB_UI_HOST = '0.0.0.0'     # Web UI host
-WEB_UI_PORT = 8082           # Web UI port
+WEB_UI_PORT = 8123           # Web UI port
 
 BLOCKED_IPS_FILE = 'blocked_ips.json'
 RELOAD_INTERVAL = 30  # Seconds between blocklist reloads
