@@ -62,9 +62,9 @@ You should see output like:
 ======================================================================
 RyDrive IP Ban Proxy with Web UI
 ======================================================================
-Proxy listening on:  0.0.0.0:8081
+Proxy listening on:  0.0.0.0:800.
 Forwarding to:       127.0.0.1:8080 (RyDrive)
-Web UI:              http://localhost:8082
+Web UI:              http://localhost:8123
 Blocked IPs:         0
 Blocklist file:      blocked_ips.json
 Auto-reload:         Every 30 seconds
