@@ -10,8 +10,8 @@ before they ever reach RyDrive. No modifications to rydrive.py needed!
 Usage:
     1. Start RyDrive normally: python rydrive.py
     2. Start this proxy: python rydrive_proxy.py
-    3. Point clients to port 8081 instead of 8080
-    4. Access Web UI at http://localhost:8082
+    3. Point clients to port 8000 instead of 8080
+    4. Access Web UI at http://localhost:8123
 """
 
 import socket
